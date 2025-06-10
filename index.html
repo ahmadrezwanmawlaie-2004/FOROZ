@@ -32,23 +32,15 @@
                 <!-- The offcanvas menu that appears on small screens -->
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasExampleLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
-                        <div>
-                            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists,
-                            etc.
-                        </div>
-                        <div class="dropdown mt-3">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                                Dropdown button
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                        <div class="d-flex flex-column">
+                            <a class="nav-link fontSizeNav" aria-current="page" href="#">Opportunites</a>
+                            <a class="nav-link fontSizeNav" aria-current="page" href="#">Home</a>
+                            <a class="nav-link fontSizeNav" href="#">About</a>
+                            <a class="nav-link fontSizeNav" href="#">Our Vision</a>
+                            <a class="nav-link btn rounded-5 fontSizeNav mt-2" href="#" id="loginbtn">Login</a>
                         </div>
                     </div>            
                 </div>
@@ -71,7 +63,7 @@
                                 <a class="nav-link fontSizeNav" href="#">Our Vision</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link btn rounded-5 fontSizeNav" href="#" id="loginbtn">Login</a>
+                                <a class="nav-link btn rounded-5 fontSizeNav ms-2" href="#" id="loginbtn">Login</a>
                             </li>
                         </ul>
                     </div>
@@ -104,6 +96,80 @@
                 <img src="images\cover 1.png" alt="Cover Image" class="img-fluid rounded-5 shadow-lg" height="300" width="300" id="coverimg">
             </div>
          </div>
+
+         <!-- Row Second -->
+        <div class="row mt-5">
+            <p class="text-center display-6" id="txt4">Laying the groundwork</p>
+            <p class="text-center display-6 mb-5" id="txt4">for lasting impact</p>
+            <div class="col-9 text-center mx-auto">
+                <p class="text-center" id="txt7">Since coming into power, the Taliban has barred millions of Afghan women from attending secondary
+                    and post-secondary
+                    school. Together with our partners, we want to help them access transformational educational and career opportunities.</p>
+            </div>
+        </div>
+
+
+        <!-- Row Third -->
+         <div class="row mt-5 mx-5">
+            <div class="col">
+                <img src="images\ceo.png" alt="CEO Image" class="img-fluid rounded-5 shadow-lg" height="380" width="350">
+            </div>
+            <div class="col mt-3">
+                <p id="txt5" class="display-6">Universal access to</p>
+                <p id="txt6" class="display-6 mb-3">opportunities</p>
+                <p class="mt-2" id="txt11">
+                    We believe every individual deserves access to quality education and the chance to realize their dreams.
+                </p>
+            </div>
+            <div class="col" id="additionalCol"></div>
+         </div>
+
+
+         <!-- Row Footer -->
+          <div class="row mt-3" id="footer">
+            <div class="row">
+                <div class="row">
+                    <div class="col mt-4">
+                        <div class="d-flex align-items-center">
+                            <img src="images\lOGO 1.png" alt="Footer Logo" class="img-fluid shadow-lg" height="100" width="100">
+                            <p class="mt-3 display-6" id="txt8">FOROZ.</p>
+                        </div>
+                        <div>
+                            <h3 class="text-white ms-2" id="txt9">Stay Update</h3>
+                            <p class="text-white ms-2" id="txt10">Sign up to stay in the loop on all things Passage, from announcements, to
+                                new opportunities and programs.</p>
+                        </div> 
+                        <div class="input-group ms-2">
+                            <input type="email" class="form-control" placeholder="Your E-mail" aria-label="Recipient's email"
+                                aria-describedby="button-addon2">
+                            <button class="btn text-white" type="button" id="button-addon2">I'm in</button>  </div> 
+                    </div>
+                    <div class="col mt-5 d-flex justify-content-between">
+                        <p class="text-white txt12">Opportunites</p>
+                        <p class="text-white txt12">Get Involved</p>
+                        <p class="text-white txt12">Company</p>
+                        <p class="text-white txt12">Support</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="lastEdgeFooter">
+                <div class="d-flex justify-content-start gap-5 ms-2">
+                    <p class="text-white txt13">© 2025 Foroz Inc. All Rights Reserved.</p>
+                    <p class="text-white txt13">Privacy Policy</p>
+                    <p class="text-white txt13">Terns of Service</p>
+                    <p class="text-white txt13">Withdrawal Policy</p>
+                </div>
+                <div class="d-flex ms-2">
+                    <img src="images\locationIcon.png" alt="Location Icon" class="img-fluid">
+                    <p class="text-white" id="txt14">Kabul, Afghanistan</p>
+                </div>
+            </div>
+            <div class="row">
+                <p class="text-center text-secondary mt-2" id="txt15">
+                    Terms and conditions apply. All trademarks and logos and brand names are the property of their respective owners.
+                </p>
+            </div>
+          </div>
     </div>
 </body>
 </html>
