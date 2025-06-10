@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: url("backgound.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#loginbtn{
+    color:white;
+    background-color: #062A7F;
+    padding: 10px 20px;
+    font-weight: bolder;
+}
+.fontSizeNav{
+    font-size: 1.2rem;
+}
+#offcanvasDarkNavbar{
+    display: none;
+}
+#blackline{
+    background-color: black;
+    color:black;
+    border-color: solid black;
+    height: 2px;
+}
+
+#txt1{
+    font-weight: bolder;
+    margin:0px;
+}
+
+#txt2{
+    color:#062B80;
+    font-weight: bolder;
+    margin-left:0px;
+}
+
+#txt3{
+    margin-left: 0px;
+    font-size: large;
+    text-align: justify;
+}
+
+#btn1{
+    color: white;
+    background-color: #062A7F;
+    padding: 10px 20px;
+    font-weight: bolder;
+}
+@media screen and (max-width: 766px) {
+    #navbarNav{
+        display: none;
+    }
+    #offcanvasDarkNavbar {
+        display: block;
+    }    
+}
