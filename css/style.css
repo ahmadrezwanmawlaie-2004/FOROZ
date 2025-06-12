@@ -41,9 +41,25 @@ body{
     padding: 10px 20px;
     font-family: 'Kontora-Regular', sans-serif;
 }
+#loginbtn:hover{
+    text-decoration: none;
+}
 .fontSizeNav{
     font-size: 1.1rem;
     font-family: 'Kontora-Regular', sans-serif;
+}
+.fontSizeNav:hover{
+    text-decoration-line: underline;
+    text-decoration-style:solid;
+    text-decoration-color:rgb(184, 207, 227);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
+.offcanvasLinks:hover{
+        text-decoration-line: underline;
+        text-decoration-color: white;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 10px;
 }
 #offcanvasDarkNavbar{
     display: none;
@@ -132,6 +148,14 @@ body{
 }
 #lastEdgeFooter{
     margin-top:140px;
+}
+#emailInput {
+    max-width: 450px;
+}
+#offcanvasDarkNavbar{
+    background-color: #03143D;
+    opacity: 90%;
+    color:white;
 }
 @media screen and (max-width: 766px) {
     #navbarNav{
