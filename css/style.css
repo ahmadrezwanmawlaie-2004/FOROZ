@@ -188,9 +188,12 @@
 }
 
 #about_row4{
-    background-color: #FFFFC1;
+    background-color: #FFFFE9;
 }
 
+#about_row5{
+    background-color: #fafad6;
+}
 
 #about_aboutUsTitle{
     font-family: 'Times New Roman', Times, serif;
@@ -203,4 +206,12 @@
 
 .fontsStyle{
     font-family: 'Times New Roman', Times, serif;
+}
+
+.imgSizeAbout{
+    height: 100px;
+    width: 100px;
+}
+.cursor{
+    cursor: pointer;
 }
